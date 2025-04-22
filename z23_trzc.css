@@ -1,0 +1,34 @@
+
+
+p#pogrubienie_trzcinski {
+    font-size: 64px;
+    color: #80B8CC;
+}
+
+p#pochylona_trzcinski {
+    font-size: 22pt;
+    color: #E4C864;
+}
+
+p#index_gorny_trzcinski {
+    font-size: (1.5cm);
+    color: #94928C;
+}
+
+p#index_dolny_trzcinski {
+    font-size: (2.9cm);
+    color: rgba(48, 242, 224, 1);
+}
+
+p#mono_trzcinski {
+    font-size: 52px;
+    color: #14DE68;
+}
+
+p#powiekszenie_trzcinski {
+    color: #4E3E9E;
+}
+
+p#pomniejszenie_trzcinski {
+    color: #B5A8A4;
+}
