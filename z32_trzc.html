@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Model Pudełkowy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    ul {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Model pudełkowy w CSS</h1>
+
+  <h2>Pytania teoretyczne</h2>
+  <ol>
+    <li>
+      <strong>Podaj definicję modelu pudełkowego</strong><br>
+      <p style="font-family: Arial; font-size: 16px;">
+        Model pudełkowy (ang. box model) to sposób reprezentacji elementów HTML jako prostokątnych pudełek. Każdy element składa się z czterech warstw: zawartości (content), wewnętrznego marginesu (padding), obramowania (border) i zewnętrznego marginesu (margin). Model ten umożliwia kontrolowanie odstępów i wyglądu elementów na stronie.
+      </p>
+    </li>
+  </ol>
+
+  <h2>Uwagi o modelu pudełkowym</h2>
+  <ul>
+    <li>Rozmiar elementu HTML zależy od sumy: szerokości contentu, paddingu, borderu i marginesu (chyba że zastosujemy <code>box-sizing: border-box</code>).</li>
+    <li>Ustawienie właściwości CSS takich jak <code>margin</code> lub <code>padding</code> wpływa na układ i przestrzeń wokół elementów.</li>
+  </ul>
+
+  <h2>Ilustracja modelu pudełkowego</h2>
+  <img src="z32_zdj.png" alt="Model pudełkowy" width="400">
+
+  <h2>Tabela – Elementy modelu pudełkowego</h2>
+
+  <table>
+    <tr>
+      <th>Element</th>
+      <th>Opis</th>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Zawartość elementu, np. tekst lub obrazek. To główna część widoczna dla użytkownika.</td>
+    </tr>
+    <tr>
+      <td>Padding</td>
+      <td>Odstęp między zawartością a obramowaniem (borderem). Przezroczysty obszar wokół contentu.</td>
+    </tr>
+    <tr>
+      <td>Border</td>
+      <td>Ramka otaczająca padding i content. Może mieć różną grubość, kolor i styl.</td>
+    </tr>
+    <tr>
+      <td>Margin</td>
+      <td>Odstęp między borderem a innymi elementami strony. Przezroczysty obszar na zewnątrz elementu.</td>
+    </tr>
+  </table>
+
+  <!-- Kacper Trzciński -->
+
+</body>
+</html>
